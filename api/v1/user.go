@@ -10,11 +10,6 @@ import (
 
 var code int
 
-// 查询用户是否存在
-func userExist(c *gin.Context) {
-
-}
-
 // 添加用户
 func AddUser(c *gin.Context) {
 	var data model.User
